@@ -1,0 +1,19 @@
+.ant-menu-item-selected {
+    background-color: #7868EC !important;
+    border-bottom: 2px solid #AEA9BA;
+    border-right: 0px solid transparent;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.ant-menu-item:hover {
+    color: #000 !important;
+}
+
+.ant-menu-item-selected::after {
+    border-right: 0px solid transparent !important;
+}
+
+.antd-wave-shadow-color {
+    color: #fff;
+}

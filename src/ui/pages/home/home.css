@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden,
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-selected::after {
+    border-bottom: 2px solid #7868ec !important;
+}
+
+.text-tag {
+    color: #7868ec;
+    font-style: italic;
+}
+
+.button-tag {
+    background-color: #7868ec;
+    color: white;
+}
+
+.ant-layout-header {
+    background-color: #fffae7;
+    padding: 0px;
+}
+
+.recent-work {
+    width: 100%;
+    font-size: 20;
+    text-align: center;
+    border-bottom: 3px solid #000;
+    line-height: 0.2em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.recent-work span {
+    background: #fffae7;
+    padding: 0 5px;
+}

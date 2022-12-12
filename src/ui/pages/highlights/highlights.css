@@ -1,0 +1,11 @@
+.ant-steps-icon-dot {
+    background-color: #7868EC !important;
+}
+
+.ant-steps-item-tail::after {
+    background-color: #7868EC !important;
+}
+
+.ant-steps-item-title{
+    font-weight: bolder !important;
+}
